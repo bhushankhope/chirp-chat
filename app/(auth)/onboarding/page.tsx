@@ -11,8 +11,6 @@ async function Page() {
   if (userInfo?.onboarded) {
     redirect("/");
   }
-  console.log("USERINFO", userInfo?.username)
-  console.log("USER", user?.username)
   const userData = {
     id: user?.id,
     objectId: userInfo?._id,
