@@ -10,8 +10,8 @@ import Topbar from "@/components/shared/Topbar";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "Threads",
-  description: "A Threads clone applicaiton",
+  title: "Chirp Chat",
+  description: "A social media applicaiton",
 };
 
 export default function RootLayout({
